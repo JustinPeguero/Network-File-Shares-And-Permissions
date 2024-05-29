@@ -1,4 +1,4 @@
-# network-file-shares-and-permissions
+
 
 <p align="center">
 <img src="https://jumpcloud.com/wp-content/uploads/2016/07/AD1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
