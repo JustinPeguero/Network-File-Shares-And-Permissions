@@ -24,9 +24,9 @@ In this tutorial, we will share resources over the network by creating file shar
 
 <h2>High-Level Steps</h2>
 
-- Create sample file share folders with permissions
-- Access file shares as a normal users
-- Create an "ACCOUNTANTS" Sccurity Group, assign permissions, and test access
+- Create Sample File Share Folders With Permissions
+- Access File Shares As A Normal User
+- Create An "ACCOUNTANTS" Seurity Group, Assign Permissions, and Test Access
 
 <h2>Actions and Observations</h2>
 
@@ -37,7 +37,7 @@ In this tutorial, we will share resources over the network by creating file shar
 
 </p>
 <p>
-Create 2 instances of your remote desktop and log into the domain controller as an admin and your client PC as one of the users.
+Create Two Instances Of Your Remote Desktop And Log Into The Domain Controller As An Admin, And Your Client PC As One Of The Users.
 </p>
 <br />
 
@@ -46,7 +46,7 @@ Create 2 instances of your remote desktop and log into the domain controller as 
 
 </p>
 <p>
-From your domain controller click on the Windows Explorer icon on your taskbar-->This PC-->Click on your C:\ drive to open its contents.
+From Your Domain Controller, Click On The Windows Explorer Icon On Your Taskbar-->This PC-->Click on your C:\ drive To Open It's Contents.
 </p>
 <br />
 
@@ -55,7 +55,7 @@ From your domain controller click on the Windows Explorer icon on your taskbar--
 
 </p>
 <p>
-From your domain controller in the C:\ drive create 4 folders: "read-access", "write-access", "no-access", and "accounting".
+From Your Domain Controller In The C:\ Drive, Create Four folders: "read-access", "write-access", "no-access", and "accounting".
 </p>
 <br />
 
@@ -63,7 +63,7 @@ From your domain controller in the C:\ drive create 4 folders: "read-access", "w
 
 </p>
 <p>
-In Windows C:\ drive right click the folder-->hover to Properties-->Click on the Sharing Tab-->Click on Share from the Sharing tab-->Type Domain Users in the bar above the name and permission level. 
+In Windows C:\ drive, Right Click The Folder-->Hover To Properties-->Click On The Sharing Tab-->Click On Share From The Sharing Tab-->Type Domain Users In The Bar Above The Name And Permission Level. 
 
 There will be a drop down menu that will allow you to select the permission level for your domain users.  Check "Read" for the read-access folder, "Read/Write" for the write-access folder. Instead of adding domain users in the no-access folder, we will use domain admins instead and provide them with "Read/Write" access.  This will give normal users no access to that folder. 
 
